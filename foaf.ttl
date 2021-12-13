@@ -37,5 +37,5 @@
     a foaf:Person ;
     foaf:name "Дијана Саздевска" ;
     foaf:mbox_sha1sum "594f7bfb8fc2602bf187604cd26ff3dc63460445" ;
-    rdfs:seeAlso <https://github.com/dijanasazdevska/foaf/foaf.ttl>
+    rdfs:seeAlso <https://raw.githubusercontent.com/dijanasazdevska/foaf/main/foaf.ttl>
   ] .
