@@ -1,0 +1,41 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://www.dropbox.com/s/ury8igvp9fb8hew/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://www.dropbox.com/s/ury8igvp9fb8hew/foaf.ttl#me> ;
+  foaf:primaryTopic <https://www.dropbox.com/s/ury8igvp9fb8hew/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://www.dropbox.com/s/ury8igvp9fb8hew/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Gjoko Kostadinov" ;
+  foaf:title "Mr" ;
+  foaf:givenname "Gjoko" ;
+  foaf:family_name "Kostadinov" ;
+  foaf:nick "Gjoko" ;
+  foaf:mbox_sha1sum "317aadd75a6bdee149a366b5bab3c35a8cd50a2d" ;
+  foaf:homepage <https://www.facebook.com/gjoko.kostadinov/> ;
+  foaf:depiction <https://scontent.fskp4-1.fna.fbcdn.net/v/t1.6435-9/38942489_10215489708109947_2617670816157925376_n.jpg> ;
+  foaf:phone <tel:0038972232645> ;
+  foaf:workplaceHomepage <https://www.scalefocus.com/> ;
+  foaf:workInfoHomepage <https://www.betterteam.com/technical-lead-job-descriptionhttps://www.finki.ukim.mk/en> ;
+  foaf:schoolHomepage <https://www.finki.ukim.mk/en> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Domagoj Drenjanac" ;
+    foaf:mbox_sha1sum "40d3ead11d8ad6b9a76579d25c85b705880f739b" ;
+    rdfs:seeAlso <https://sites.google.com/site/drenjanac/about-me/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Anna Fensel" ;
+    foaf:mbox_sha1sum "53b77bada10883ef1af7157e82b0a9db2af65c04" ;
+    rdfs:seeAlso <http://userver.ftw.at/~zhdanova/foaf.rdf>
+  ], [
+    a foaf:Person ;
+    foaf:name "Дијана Саздевска" ;
+    foaf:mbox_sha1sum "594f7bfb8fc2602bf187604cd26ff3dc63460445" ;
+    rdfs:seeAlso <https://github.com/dijanasazdevska/foaf/foaf.ttl>
+  ] .
