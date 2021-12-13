@@ -4,8 +4,8 @@
 
 <https://www.dropbox.com/s/ury8igvp9fb8hew/foaf.ttl>
   a foaf:PersonalProfileDocument ;
-  foaf:maker <https://raw.githubusercontent.com/Gjoko/GjokoKostadinov/2de7bc180ad52ad3cab10865a4843382b669c612/foaf.ttl#me> ;
-  foaf:primaryTopic <https://raw.githubusercontent.com/Gjoko/GjokoKostadinov/2de7bc180ad52ad3cab10865a4843382b669c612/foaf.ttl#me> ;
+  foaf:maker <https://raw.githubusercontent.com/Gjoko/GjokoKostadinov/main/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/Gjoko/GjokoKostadinov/main/foaf.ttl#me> ;
   ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
   ns0:errorReportsTo <mailto:leigh@ldodds.com> .
 
